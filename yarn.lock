@@ -1333,6 +1333,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+circular-json@^0.5.5:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.5.9.tgz#932763ae88f4f7dead7a0d09c8a51a4743a53b1d"
+  integrity sha512-4ivwqHpIFJZBuhN3g/pEcdbnGUywkBblloGbkglyloVjjR3uT6tieI89MVOfbP2tHX5sgb01FuLgAOzebNlJNQ==
+
 clap@^1.0.9:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
@@ -3700,9 +3705,10 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
 
-lodash.merge@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
+lodash.merge@^4.6.1:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.template@^4.0.2:
   version "4.4.0"
@@ -6111,11 +6117,13 @@ vuetify@^0.17.6:
   version "0.17.6"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-0.17.6.tgz#09197c0baba675a13ea749e326ff47df367b21a8"
 
-vuex-persist@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/vuex-persist/-/vuex-persist-1.1.0.tgz#25d76e723aae707cf127706dd51e70e93371147a"
+vuex-persist@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/vuex-persist/-/vuex-persist-1.8.0.tgz#958ce00e83b0feba4a695f7a2be76d3f3ce32720"
+  integrity sha512-t8qp1DbnMijCduk4t5/rmlxr1Hv+XY6YvAPkJzFJGSEi34CJa1qgtDUErPjEtgM0+42+6qqIWyLWPboGImjHxw==
   dependencies:
-    lodash.merge "^4.6.0"
+    circular-json "^0.5.5"
+    lodash.merge "^4.6.1"
 
 vuex@^3.0.1:
   version "3.0.1"
