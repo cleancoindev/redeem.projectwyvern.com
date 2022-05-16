@@ -9,7 +9,7 @@
     "bs58check": "^2.1.1",
     "buffer": "^5.0.8",
     "ethereumjs-util": "^5.1.2",
-    "poi": "^9.6.9",
+    "poi": "^10.0.0",
     "vue-meta": "^1.4.0",
     "vue-router": "^3.0.1",
     "vuetify": "^0.17.6",
